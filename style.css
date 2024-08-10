@@ -37,3 +37,33 @@ justify-content: space-between;
 align-items: center;
 background-color: #1F2937
 }
+
+.top-left{
+    padding: 100px 0 100px 250px;
+}
+
+.top-left h1{
+font-size: 48px;
+font-weight: bolder;
+color: #F9FAF8;
+margin-bottom: 12px;
+}
+
+.top-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 10px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.top-right{
+    margin-right: 250px;
+}
