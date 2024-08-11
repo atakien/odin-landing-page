@@ -11,10 +11,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    height: 100px;
 }
 
 .header img{
-    margin: 12px 0 12px 250px;
+    margin-left: 250px;
 }
 
 .header-right{
@@ -29,13 +30,15 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .top{
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: #1F2937
+background-color: #1F2937;
+ height: 400px;
 }
 
 .top-left{
@@ -68,8 +71,18 @@ button{
     margin-right: 250px;
 }
 
+.top-right img{
+    height: 220px;
+}
+
 figcaption {
    color: #1F2937;
+   text-align: center;
+   margin-top: 5px;
+}
+
+.info{
+    height: 400px;
 }
 
 .info h2{
@@ -83,7 +96,7 @@ figcaption {
 .info .cards{
     display: flex;
     justify-content: space-between;
-    margin: 80px 250px;
+    margin: 50px 250px;
 }
 
 figure img{
@@ -112,13 +125,16 @@ figure img{
 }
 
 .action{
-    height: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
     background-color: #3882F6;
-    margin: 160px 250px 0;
-    height: 120px;
+    width: 1000px;
+    height: 150px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -134,12 +150,20 @@ figure img{
     padding-left: 100px;
 }
 
+.action-left-1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .footer{
     background-color: #1F2937;
-    height: 250px;
+    height: 150px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer p{
-    text-align: center;
+    font-size: 18px;
 }
